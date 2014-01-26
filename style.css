@@ -1,0 +1,22 @@
+body {
+    font-family: consolas;
+    background: lightgrey;
+}
+
+textarea {
+    width: 550px;
+    height: 300px;
+}
+
+textarea#result {
+    background: lightgrey;
+}
+
+button {
+    font-family: consolas;
+    font-size: 20px;
+}
+
+#right_keyboard_hint {
+    display: inline-block;
+}
