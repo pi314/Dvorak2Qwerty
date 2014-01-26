@@ -14,3 +14,5 @@ how to design the user interface is more harder,
 I don't want to make this tool "colorful" or "cool" so it has just gray background.
 
 This webpage provides two direction of translation and two keyboard snapshot.
+
+The source of dvorak keyboard picture is Wikipedia.
