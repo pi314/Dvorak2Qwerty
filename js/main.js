@@ -27,6 +27,9 @@ $(function () {
     dvorak2qwerty_mapping['BACKSPACE'] = 'BACKSPACE';
     qwerty2dvorak_mapping['BACKSPACE'] = 'BACKSPACE';
 
+    dvorak2qwerty_mapping['SPACE'] = ' ';
+    qwerty2dvorak_mapping['SPACE'] = ' ';
+
     var state = 'INPUT'; // 'INPUT', 'SELECT'
     var data = '';
     var direction = 'd2q';
@@ -52,7 +55,7 @@ $(function () {
 
     KeyManager.keydown('CTRL', function () {
         select_all();
-    }).keydown([qwerty_string, 'BACKSLASH', 'ENTER', 'BACKSPACE'], function (i) {
+    }).keydown([qwerty_string, 'BACKSLASH', 'ENTER', 'BACKSPACE', 'SPACE'], function (i) {
         if (direction == 'd2q') {
             input(dvorak2qwerty_mapping[i]);
         } else {
