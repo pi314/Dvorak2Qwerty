@@ -9,7 +9,9 @@ textarea {
 }
 
 textarea#result {
+    font-size: 25px;
     background: lightgrey;
+    vertical-align: top;
 }
 
 button {
